@@ -1,0 +1,42 @@
+html,
+body {
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: 'JetBrains Mono', monospace;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.folder {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 5rem;
+  height: 5rem;
+}
+
+.folder img {
+  width: 5rem;
+  -webkit-user-drag: none;
+  pointer-events: none;
+  user-select: none;
+  margin-bottom: 0.1rem;
+}
+
+.folder span {
+  font-size: 1rem;
+  -webkit-user-drag: none;
+  pointer-events: none;
+  user-select: none;
+  background: white;
+}
+
+.container {
+  padding: 5rem;
+  height: 100%;
+  width: 100%;
+}
